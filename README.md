@@ -1,0 +1,2 @@
+# Algorithms
+JS Algorithms Practice
