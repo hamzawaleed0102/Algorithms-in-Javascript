@@ -1,3 +1,8 @@
+// What is the Strategy design pattern?
+// The Strategy pattern is a behavioral design pattern that enables you to
+// define a group (or family) of closely-related algorithms (known as strategies).
+// The strategy pattern allows you to swap strategies in and out for each other as needed at runtime.
+
 function DHL() {
   this.calculate = () => {
     return 3.4;
