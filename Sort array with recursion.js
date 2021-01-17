@@ -1,14 +1,15 @@
 const array = [6, 4, 2, 100, 80, 2];
 
 const sort = (arr, len) => {
-  //find largest number
+  // base case
   if (len === 0) {
     return console.log("arr", arr);
   }
+  //find largest number
   const largestIndex = getLargestIndex(arr, len);
-  // replace arr last with largest
-  const lastNum = arr[len - 1];
-  arr[len - 1] = arr[largestIndex];
+
+  const lastNum = arr[len - 1]; // store last array index value in a variable
+  arr[len - 1] = arr[largestIndex]; // swap largest value with the end value of array
   arr[largestIndex] = lastNum;
   sort(arr, len - 1);
 };

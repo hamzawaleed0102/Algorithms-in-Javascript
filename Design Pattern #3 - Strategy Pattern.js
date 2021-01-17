@@ -19,7 +19,7 @@ function TCS() {
 // const tcs = new TCS();
 // const d1 = dhl.calculate()
 // const t1 = tcs.calculate()
-//  instead of above duplicate .calculare() function. we're going to write a Shipping function (stratery pattern)
+//  instead of above duplicate .calculare() function. we're going to write a Shipping function (strategy)
 
 function Shipping() {
   this.company = "";
