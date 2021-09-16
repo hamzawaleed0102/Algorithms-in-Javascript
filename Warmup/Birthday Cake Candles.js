@@ -20,18 +20,18 @@ Candle heights are [3,2,1,3]. The tallest candles are 3 units, and there are 2 o
 */
 
 function birthdayCakeCandles(candles) {
-    const candlesCount={}
-    let maxCandleHeight=candles[0]
-    
-    candles.forEach(candleHeight=>{
-        if(candleHeight>maxCandleHeight){
-            maxCandleHeight=candleHeight
-        }
-        if(candlesCount[candleHeight]===undefined){
-           candlesCount[candleHeight]=1
-        }else{
-             candlesCount[candleHeight]++
-        }
-    })
-    return candlesCount[maxCandleHeight]
-  }
+  const candlesCount = {};
+  let maxCandleHeight = candles[0];
+
+  candles.forEach((candleHeight) => {
+    if (candleHeight > maxCandleHeight) {
+      maxCandleHeight = candleHeight;
+    }
+    if (candlesCount[candleHeight] === undefined) {
+      candlesCount[candleHeight] = 1;
+    } else {
+      candlesCount[candleHeight]++;
+    }
+  });
+  return candlesCount[maxCandleHeight];
+}
