@@ -16,8 +16,6 @@
   Thus, the answer is 6 + 0 + 3 + 0 + 1 + 1 = 11.
 **/
 
-stringSimilarity('ababaa');
-
 const getSimilarityCount = (suffix, str) => {
   let count = 0;
   for (let index in str) {
@@ -40,3 +38,5 @@ const stringSimilarity = (str) => {
   console.log(similaritySum);
   return similaritySum;
 };
+
+stringSimilarity('ababaa');
