@@ -31,6 +31,6 @@ If you're sitting in the corner and coding all day, It's very hard to get notice
 
 
 ## Lack of motivation to get started with DSA? 🥱
-Make small goals, at least solve one problem every day. This way you'll be able to solve 360 problems a year, which is HUGE. 
+Make small goals, at least solve one problem every day. Eventually you'll end up solving **365** problems a year, which is HUGE.
 
 If you're procrastinating and thinking that you'll start doing it after a year? then you MUST start it today, this way you'll be much better than the older version of yourself _(who use to think that I'll do it next year)_ 🔥
