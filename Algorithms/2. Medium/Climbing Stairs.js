@@ -5,10 +5,10 @@
     In how many distinct ways can you climb to the top?
 */
 const climbStairs = (n) => {
-    let dp = {};
+    let cache = {};
     let climb = (sum = 0) => {
-      if (dp[sum] !== undefined) {
-        return dp[sum];
+      if (cache[sum] !== undefined) {
+        return cache[sum];
       }
       let climb1 = 0;
       let climb2 = 0;
@@ -21,7 +21,7 @@ const climbStairs = (n) => {
       climb1 = 0 + climb(sum + 1);
       climb2 = 0 + climb(sum + 2);
   
-      return (dp[sum] = climb1 + climb2);
+      return (cache[sum] = climb1 + climb2);
     };
   
     return climb(0);
